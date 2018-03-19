@@ -1,0 +1,16 @@
+#!/bin/bash
+
+VAR="this is a var"
+echo $VAR
+#ANOTHER_VAR = "this causes an error"
+FOO_VAR='this will not expand: $VAR'
+echo $FOO_VAR
+
+BAR_VAR="this will expand: $VAR"
+echo $BAR_VAR
+
+echo "Parameter expansion"
+echo ${BAR_VAR}
+
+echo "String Subsitution"
+echo ${BAR_VAR/expand/interpolate}

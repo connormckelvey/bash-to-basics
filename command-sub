@@ -1,0 +1,6 @@
+#!/bin/bash -ex
+
+FOO=$(ls ~)
+BAR=`ls /Users`
+echo $FOO
+echo $BAR

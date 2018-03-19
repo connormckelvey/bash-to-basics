@@ -1,0 +1,13 @@
+#!/bin/bash -ex
+
+ls -la data
+# ls -la data | grep "foo"
+# ls -la data | awk '{ print $1 }'
+
+# get_permissions() {
+#     local dir="$1"
+
+#     ls -la $dir | awk '{if(NR>1)print}' | awk '{ print $1 }' # awk not bash
+# }
+
+# get_permissions "$1"

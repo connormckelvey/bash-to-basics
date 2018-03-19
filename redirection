@@ -1,0 +1,10 @@
+#!/bin/bash -ex
+
+# cat data/foo.yaml data/bar.yaml
+# cat data/foo.yaml data/bar.yaml > data/baz.yaml
+# cat data/foo.yaml data/bar.yaml >> data/baz.yaml
+# grep bar < data/baz.yaml
+
+# echo foo > /dev/null
+# echo foo > data/stdout.txt 2> /data/stderr.txt
+# echo foo > allout.txt 2>&1

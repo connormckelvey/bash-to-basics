@@ -1,0 +1,5 @@
+#!/bin/bash -ex
+
+echo this is s string
+echo "this is a string as well"
+echo 'this too is a string'
